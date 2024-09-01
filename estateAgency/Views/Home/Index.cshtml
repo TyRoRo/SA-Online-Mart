@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="text-center">
+    <h1>Welcome to SA Online Mart</h1>
+    <p>Discover and support local South African artisans and small businesses.</p>
+    <a href="@Url.Action("Index", "Product")" class="btn btn-primary mt-3">Shop Now</a>
+</div>
+
+
+<div class="container mt-5">
+    <h2 class="text-center">Why Shop With Us?</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h4>Support Local</h4>
+            <p>Help local businesses grow with every purchase.</p>
+        </div>
+        <div class="col-md-4">
+            <h4>Eco-friendly</h4>
+            <p>Buy products made with sustainability in mind.</p>
+        </div>
+        <div class="col-md-4">
+            <h4>Fast Delivery</h4>
+            <p>Quick and reliable delivery across South Africa.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 text-center">
+    <h2>Join Our Newsletter</h2>
+    <form>
+        <input type="email" placeholder="Enter your email" class="form-control mb-2">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+</div>
